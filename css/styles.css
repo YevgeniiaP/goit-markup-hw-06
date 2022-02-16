@@ -838,13 +838,11 @@ img {
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
-  resize: none;
   background: transparent;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 16px;
   outline: none;
-  overflow: hidden;
 }
 
 .submit-button {
@@ -856,16 +854,13 @@ img {
   display: flex;
   align-items: center;
   text-align: center;
+  justify-content: center;
   letter-spacing: 0.06em;
   color: var(--logo-color-footer);
   background: var(--logo-color-main);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
-  padding-top: 10px;
-  padding-right: 28px;
-  padding-bottom: 10px;
-  padding-left: 29px;
   margin-left: 12px;
 }
 
