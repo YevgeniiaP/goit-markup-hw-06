@@ -959,7 +959,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-input:focus {
+.modal-input:focus,
+.modal-text:focus {
   border-color: var(--logo-color-main);
 }
 
@@ -988,6 +989,8 @@ img {
   padding-top: 10px;
   padding-left: 16px;
   resize: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-text::placeholder {
