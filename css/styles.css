@@ -843,6 +843,7 @@ img {
   padding-bottom: 15px;
   padding-left: 16px;
   outline: none;
+  color: var(--logo-color-footer);
 }
 
 .submit-button {
@@ -900,6 +901,7 @@ img {
   background: transparent;
   width: 30px;
   height: 30px;
+  padding: 6px;
 }
 
 .backdrop.is-hidden {
